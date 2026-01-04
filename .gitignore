@@ -1,0 +1,30 @@
+# Build artifacts
+build/
+bin/
+*.o
+*.a
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Environment / secrets
+.env
+config/local.conf
+
+# Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
